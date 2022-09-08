@@ -1,0 +1,278 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body class="">
+    <div class="flex h-full">
+      <div class="sidebar bg-sky-900 mr-1 border-1 ml-0 w-1/5 hidden md:block sm:ml-0" id="menu">
+     <div class="logo flex lg:pl-14 pt-4 sm:pl-2">
+        <img class="w-12 h-8 "src="img/polymer.png">
+        <h1 class="text-slate-300 items-center text-3xl pl-2 pb-3 pr-20">easywire<h1>
+     </div>    
+        <nav class="text-slate-300">
+            <ul class="text-xl pl-2 pr-2">
+                <li class="text-bold pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">                  
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                        <span class="font-bold">Home</span>
+                    </a>
+                </li>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg> 
+                        <span class="font-bold">History</span>
+                    </a>
+                </li>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+                        </svg>
+                          
+                        <span class="font-bold">Balances</span>
+                    </a>
+                </li>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                        </svg>
+                          
+                        <span class="font-bold">Cards</span>
+                    </a>
+                </li>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                        </svg>
+                          
+                        <span class="font-bold">Recipients</span>
+                    </a>
+                </li>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+                        </svg>
+                        <span class="font-bold">Reports</span>
+                    </a>
+                </li>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span class="font-bold">Settings</span>
+                    </a>
+                </li>
+                <hr>
+                <li class="pb-2 pt-2 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+                         </svg>                          
+                        <span class="font-bold">Help</span>
+                    </a>
+                </li>
+                <li class="pt-3 hover:bg-slate-800 hover:text-white transition ease-out rounded-lg">
+                    <a href="#">
+                        <svg class="w-5 ml-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                        </svg>        
+                        <span class="font-bold">Privacy</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+        <!----sidebar end-->
+      <div class="main bg-slate-200 w-full">
+        <div class="px-4 cursor-pointer md:hidden" id="burger">
+            <svg class="w-7 justify-end ml-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>           
+          </div>
+        <div class="first">
+            <div class="search flex justify-between bg-slate-100 pb-5">
+              <div class="search-btn flex pt-4 pl-4 mt-1 mb-1 ml-1">
+                <svg class="w-4 inline-block text-[#8A8585] mr-2 font-bold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                  <input type="text"  placeholder="search transaction" class="border-0 w-19 bg-slate-100 text-xl w-35">
+              </div>
+              <div class="search-icon flex pt-3 pr-4">
+                  <svg class="w-4 mr-3"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                  </svg>
+                  <img src="img/Frame 11.png" class="w-9">
+                  <span class="pt-2 ml-3 font-bold text-slate-600">Koinonia</span>
+                  <svg class="inline-block w-5 pt-1 text-zinc-500 ml-3"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                  </svg>     
+              </div>  
+            </div>
+            <hr>
+            <div class="profile pt-5 bg-slate-100 pb-5 md:flex lg:justify-between md:justify-between">
+                <div class="image justify-center flex pl-4">
+                 <img src="img/Frame 11.png"class="w-16" >
+                 <div class="info pl-3">
+                    <h1 class="font-bold text-3xl pb-1">Good morning, Koinonia</h1>
+                    <span class="flex">
+                        <svg class="text-slate-500 w-5 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M10 2c-1.716 0-3.408.106-5.07.31C3.806 2.45 3 3.414 3 4.517V17.25a.75.75 0 001.075.676L10 15.082l5.925 2.844A.75.75 0 0017 17.25V4.517c0-1.103-.806-2.068-1.93-2.207A41.403 41.403 0 0010 2z" clip-rule="evenodd" />
+                        </svg>
+                        <h1 class="font-bold">Duke Street Studio</h1>
+                        <svg class="text-green-500 w-5 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+                          </svg>
+                          <h1 class="font-bold">Verified Account</h1>     
+                    </span>
+                 </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 pt-4 pr-4">
+                    <button class="border-2 border-slate-200 rounded-lg font-bold py-1 px-2 shadow-sm">Add money</button>
+                    <button class="border-2 border-cyan-500 rounded-lg font-bold py-1 px-2 shadow-lg text-slate-100 bg-cyan-500 sm:gap-1">Send money</button>
+                </div>
+            </div>
+        </div>
+        <div class="second pl-10 pt-5 pr-10">
+             <span class="font-bold text-[16px] p-5">Overview</span></div></p>
+
+            <div class="columns grid md:grid-cols-3 gap-6 mt-8 pl-14 pb-5 pr-7">
+             <div class="Account  border-1 border-slate-100 bg-slate-100 pr-10 pt-4 rounded-lg shadow">
+             <div class="flex">
+                <svg class="w-6 pb-6 ml-3 mr-3 text-[#7A7373]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                    <path fill-rule="evenodd" d="M10 2a.75.75 0 01.75.75v.258a33.186 33.186 0 016.668.83.75.75 0 01-.336 1.461 31.28 31.28 0 00-1.103-.232l1.702 7.545a.75.75 0 01-.387.832A4.981 4.981 0 0115 14c-.825 0-1.606-.2-2.294-.556a.75.75 0 01-.387-.832l1.77-7.849a31.743 31.743 0 00-3.339-.254v11.505a20.01 20.01 0 013.78.501.75.75 0 11-.339 1.462A18.558 18.558 0 0010 17.5c-1.442 0-2.845.165-4.191.477a.75.75 0 01-.338-1.462 20.01 20.01 0 013.779-.501V4.509c-1.129.026-2.243.112-3.34.254l1.771 7.85a.75.75 0 01-.387.83A4.98 4.98 0 015 14a4.98 4.98 0 01-2.294-.556.75.75 0 01-.387-.832L4.02 5.067c-.37.07-.738.148-1.103.232a.75.75 0 01-.336-1.462 32.845 32.845 0 016.668-.829V2.75A.75.75 0 0110 2zM5 7.543L3.92 12.33a3.499 3.499 0 002.16 0L5 7.543zm10 0l-1.08 4.787a3.498 3.498 0 002.16 0L15 7.543z" clip-rule="evenodd" />
+                </svg>
+                <div class="mb-5">
+                    <h1 class="text-[#7A7373] font-bold text-[16px]">Account balance</h1>
+                    <h1 class="font-bold text-2xl">$375,658,000.00</h1>         
+                </div>
+             </div>
+                <div class="sm:w-[705] lg:w-[400] pl-6 pb-2 pt-3 mt-2 pb-2 rounded-b-lg font-bold bg-slate-200 text-cyan-400">
+                    <a href="#">View all</a>
+                </div>         
+             </div>
+
+             <div class="Account border-1 border-slate-100 bg-slate-100 pt-4 rounded-lg shadow">
+                <div class="flex">
+                <svg class="w-9 pl-3 pb-1 font-bold text-[#7A7373] mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                </svg>
+                <div class="mb-5">
+                    <h1 class="text-[#7A7373] font-bold text-[16px]">Pending</h1>
+                    <h1 class="font-bold text-2xl">-$3,658,000.00</h1> 
+                </div>    
+             </div>
+              <div class="sm:w-[705] lg:w-[400] pl-6 pb-2 pt-3 mt-2 pb-2 rounded-b-lg font-bold bg-slate-200 text-cyan-400">
+                <a href="#">View all</a>
+              </div>
+             </div>  
+
+             <div class="Account border-1 border-slate-100 bg-slate-100 pt-4 rounded-lg shadow">
+                <div class="mb-5 pl-6">
+                    <h1 class="text-[#7A7373] font-bold text-[16px]">Processed(last 30 days)</h1>
+                    <h1 class="font-bold text-2xl">$8,895,748.00</h1>
+                </div>
+                <div class="sm:w-[705] lg:w-[400] pl-6 pt-2 pb-4 lg:pb-5 mt-2 rounded-b-lg font-bold bg-slate-200 text-cyan-400">
+                    <a href="#">View all</a>
+                </div>
+             </div>
+            </div> 
+            <span class="font-bold text-[18px] pl-14">Recent Activity</span>
+            <div class="table pr-7 pt-6 pl-14 w-full border-y-1 border-slate-300">
+                <table class="table-fixed border-2 w-full">
+                    <thead>
+                        <tr class="h-14 bg-slate-200">
+                            <th class="text-left text-slate-500">TRANSACTION</th>
+                            <th class="text-left text-slate-500">AMOUNT</th>
+                            <th class="text-left text-slate-500">STATUS</th>
+                            <th class="text-left text-slate-500">DATE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="h-16 bg-slate-100">
+                            <td class="pl-3">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                                </svg>
+                                <span class="text-slate-500 font-bold">Payment to Molly Sanders</span>
+                            </td>
+                            <td class="font-bold text-slate-600">$20,000 USD</td>
+                            <td> <span class="bg-green-200 text-green-500 font-bold rounded-lg">Success</span></td>
+                            <td class="font-bold text-slate-600">July 11,2022</td>
+                        </tr>
+                        <tr class="h-16 bg-slate-100 border-y-2 border-slate-300">
+                            <td class="pl-3">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                                </svg>
+                                <span class="text-slate-500 font-bold">Payment to Oyin Esther</span>
+                            </td>
+                            <td class="font-bold text-slate-600">$105,000 USD</td>
+                            <td><span class=" border-1 bg-orange-200 font-bold text-orange-500 rounded-lg">Processing</span></td>
+                            <td class="font-bold text-slate-600">July 11,2022</td>
+                        </tr>
+                        <tr class="h-16 bg-slate-100 border-y-2 border-slate-300">
+                            <td class="pl-3">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                                </svg>
+                                <span class="text-slate-500 font-bold">Payment to Mikel Fash</span>
+                            </td>
+                            <td class="font-bold text-slate-600">$90,000 USD</td>
+                            <td><span class=" border-1 bg-green-200 font-bold text-green-500 rounded-lg">Success</span></td>
+                            <td class="font-bold text-slate-600">July 11,2022</td>
+                        </tr>
+                        <tr class="h-16 bg-slate-100 border-y-2 border-slate-300">
+                            <td class="pl-3">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                                </svg>
+                                <span class="text-slate-500 font-bold">Payment to Lanre Adex</span>
+                            </td>
+                            <td class="font-bold text-slate-600">$25,000 USD</td>
+                            <td><span class=" border-1 font-bold text-green-500 bg-green-200 rounded-lg">Success</td>
+                            <td class="font-bold text-slate-600">July 11,2022</td>
+                        </tr>
+                        <tr class="h-16 bg-slate-100 border-y-2 border-slate-300">
+                            <td class="pl-3">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                                </svg>
+                                <span class="text-slate-500 font-bold">Payment to Molly Sapa</span>
+                            </td>
+                            <td class="font-bold text-slate-600">$20,000 USD</td>
+                            <td><span class="border-1 bg-slate-300 font-bold text-slate-500 rounded-lg">Failed</span></td>
+                            <td class="font-bold text-slate-600">July 11,2022</td>
+                        </tr>
+                        <tr class="h-16 bg-slate-100 border-y-2 border-slate-300">
+                            <td class="pl-3">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                                </svg>
+                                <span class="text-slate-500 font-bold">Payment to Molly Sanders</span>
+                            </td>
+                            <td class="font-bold text-slate-600">$,5000 USD</td>
+                            <td><span class=" border-1 bg-orange-200 font-bold text-orange-500 rounded-lg">Processing</td>
+                            <td class="font-bold text-slate-600">July 11,2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>        
+      </div>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
